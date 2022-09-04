@@ -1,16 +1,41 @@
-# This is a sample Python script.
+"""
+1. Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день
+   выходным.
+Пример:
+- 6 -> да
+- 7 -> да
+- 1 -> нет
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+2. Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
+3. Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти
+    плоскости, в которой находится эта точка (или на какой оси она находится).
+Пример:
+- x=34; y=-30 -> 4
+- x=2; y=4-> 1
+- x=-34; y=-30 -> 3
 
+4.Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой
+  четверти (x и y).
+5.Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+Пример:
+- A (3,6); B (2,1) -> 5,09
+- A (7,-5); B (1,-1) -> 7,21
+"""
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# Задача №1
+# def day_of_weekend(number_of_day):
+#     DAYS = [6, 7]
+#     if number_of_day in DAYS:
+#         return 'да'
+#     return 'нет'
+#
+#
+# day = int(input('Enter a number day of the week: '))
+# print(day_of_weekend(day))
 
+# Задача №2
+# for x in range(0,2):
+#     for y in range(0,2):
+#         for z in range(0,2):
+#             print(not(x or y or z) == (not x and not y and not z))
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
