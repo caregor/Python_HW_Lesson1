@@ -22,7 +22,6 @@
 - A (7,-5); B (1,-1) -> 7,21
 """
 
-
 # Задача №1
 # def day_of_weekend(number_of_day):
 #     DAYS = [6, 7]
@@ -54,7 +53,7 @@
 # else:
 #     print('точка находится на оси координат.')
 
-# Задача №3
+# Задача №4
 # def choose_quater(argument):
 #     match argument:
 #         case 1:
@@ -66,8 +65,16 @@
 #         case 4:
 #             return "координаты x > 0 и y < 0"
 #         case default:
-#             return "Чтвертей только 4! попробуйте еще"
+#             return "Четвертей только 4! попробуйте еще"
 #
 #
 # quarter = int(input('Введите номер четвери: '))
 # print(choose_quarter(quarter))
+
+# Задача №5
+# ax = int(input('Введите координаты для точки А x=:'))
+# ay = int(input('Введите координаты для точки А y=:'))
+# bx = int(input('Введите координаты для точки B x=:'))
+# by = int(input('Введите координаты для точки B y=:'))
+# distance = ((ax - bx) ** 2 + (ay - by) ** 2) ** 0.5
+# print(round(distance, 2))
