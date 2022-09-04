@@ -22,6 +22,7 @@
 - A (7,-5); B (1,-1) -> 7,21
 """
 
+
 # Задача №1
 # def day_of_weekend(number_of_day):
 #     DAYS = [6, 7]
@@ -39,3 +40,34 @@
 #         for z in range(0,2):
 #             print(not(x or y or z) == (not x and not y and not z))
 
+# Задача №3
+# x = int(input('Введите x=:'))
+# y = int(input('Введите y=:'))
+# if x > 0 and y > 0:
+#     print(f'x={x} , y={y}: Это первая четверть')
+# elif x < 0 < y:
+#     print(f'x={x} , y={y}: Это вторая четверть')
+# elif x < 0 and y< 0:
+#     print(f'x={x} , y={y}: Это третья четверть')
+# elif x > 0 > y:
+#     print(f'x={x} , y={y}: Это четвертая четверть')
+# else:
+#     print('точка находится на оси координат.')
+
+# Задача №3
+# def choose_quater(argument):
+#     match argument:
+#         case 1:
+#             return 'координаты x > 0 и y > 0'
+#         case 2:
+#             return 'координаты x < 0 и y > 0'
+#         case 3:
+#             return 'координаты x < 0 и y < 0'
+#         case 4:
+#             return "координаты x > 0 и y < 0"
+#         case default:
+#             return "Чтвертей только 4! попробуйте еще"
+#
+#
+# quarter = int(input('Введите номер четвери: '))
+# print(choose_quarter(quarter))
